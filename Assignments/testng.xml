@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/workspace/Assignments">
+        <classes>
+            <class name="TravelWebsite.PhpTravels12">
+                <methods>
+                    <include name="firstTwo"/>
+                </methods>
+            </class>
+
+            <class name="TravelWebsite.PhpTravels345">
+                <methods>
+                    <include name="register"/>
+                </methods>
+            </class>
+            <class name="TravelWebsite.PhpTravel6">
+                <methods>
+                    <include name="changepass"/>
+                </methods>
+            </class>
+
+            <class name="TravelWebsite.PhpTravels7to11">
+                <methods>
+                    <include name="lastPost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
